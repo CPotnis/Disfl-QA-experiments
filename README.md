@@ -70,15 +70,8 @@ The following tables compare the performance and infrastructure details across a
 | LORA Full Dataset  | 0.887        | 0.953         | 0.912          | 0.941           | 0.408600          |
 | LORA Reduced Dataset | 0.882      | 0.942         | 0.898           | 0.933           | 0.453500         |
 
-### Table 2: GPU Infrastructure
 
-| Experiment         | GPU Name        | GPU Memory (GB) | Model Size in Memory (GB) |
-|--------------------|-----------------|-----------------|---------------------------|
-| Prompt Engineering | Nvidia T4       | 14.748 GB.      | 5.9GB                         |
-| LORA Full Dataset  | Nvidia A100     | 39.564 GB       | 5.9GB                       |
-| LORA Reduced Dataset | Nvidia A100   | 39.564 GB       | 5.9GB                       |
-
-### Table 3: Training Metrics
+### Table 2: Training Metrics
 
 | Experiment         | Num Rows | Training Time (hrs) | Batch Size | Epochs |
 |--------------------|----------|---------------------|------------|--------|
